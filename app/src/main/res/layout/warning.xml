@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.admin.sss5.WarningActivity"
+    android:background="@drawable/dz">
+
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape"
+        android:textScaleX="2"
+        android:textColor="#F2F2F2"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="돌아갈래요"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape"
+        android:textColor="#f2F2F2"
+        android:textScaleX="2"/>
+</GridLayout>
+
+

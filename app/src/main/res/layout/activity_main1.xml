@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/black"
+    tools:context="com.example.admin.sss7.MainActivity">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:id="@+id/gif_image"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn1"
+            android:textSize="15dp"
+            android:background="@drawable/buttonshape"
+            android:textScaleX="1"
+            android:text="게임하기"
+            android:textColor="#F2F2F2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:background="@drawable/buttonshape"
+            android:textScaleX="1"
+            android:text="랭킹순위"
+            android:textColor="#F2F2F2"
+            android:id="@+id/btn2" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

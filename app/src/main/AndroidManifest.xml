@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.sss7">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="파리팡"
+        android:roundIcon="@drawable/zz"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".WarningActivity"/>
+        <activity android:name=".SplashActivity" android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sub1Activity"/>
+        <activity android:name=".SubActivity"/>
+        <activity
+            android:name=".MainActivity1"/>
+    </application>
+
+</manifest>
